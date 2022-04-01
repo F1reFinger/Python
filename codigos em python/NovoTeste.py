@@ -18,7 +18,7 @@ while a:
 
     # Filename specification
     # Prevents any errors during conversion due to illegal characters in name
-    _filename = input("Filename: ")
+    _filename = input("Filename and format: ")
 
     # Downloading
     print("Downloading....")
