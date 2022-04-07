@@ -10,7 +10,7 @@ while a:
     url = input("URL: ")
 
     if url == False:
-        exit()
+        a = False
     # Title and Time
     print("...")
     print(((YouTube(url)).title))
@@ -28,8 +28,8 @@ while a:
     # Converting
     mp4 = "'%s'.mp4" % _filename
     mp3 = "'%s'.mp3" % _filename
-    ffmpeg = ('ffmpeg -i %s ' % mp4 + mp3)
-    subprocess.run(ffmpeg, shell=True)
+    formateiro = ("ffmpeg -i %s " % mp4 + mp3)
+    subprocess.run(formateiro, shell=True)
 
     # Completion
     print("\nCOMPLETE\n")
