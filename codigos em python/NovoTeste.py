@@ -28,7 +28,7 @@ while a:
     # Converting
     mp4 = "'%s'.mp4" % _filename
     mp3 = "'%s'.mp3" % _filename
-    formateiro = ("ffmpeg -i %s " % mp4 + mp3)
+    formateiro = ("ffmpeg %s " % mp4 + mp3)
     subprocess.run(formateiro, shell=True)
 
     # Completion
