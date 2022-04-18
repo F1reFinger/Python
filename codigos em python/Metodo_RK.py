@@ -9,6 +9,7 @@ x0 = 0
 y0 = 1
 
 #intervalo
+#insert the numbers you want below
 a = 
 b = 
 N = 
